@@ -1,0 +1,138 @@
+function ring() {
+//x,y - keskpunkt , R- raadius
+const tahvel=document.getElementById("tahvel");
+if(tahvel.getContext){
+    let t=tahvel.getContext("2d");  //tahveli nimi määramine
+t.beginPath();
+t.arc(50,50,30,0,2 *Math.PI, true);
+t.strokeStyle= "orange";
+t.stroke();//Ümberjoon
+t.fillStyle = "blue";
+t.fill(); // tausust
+
+}
+}
+function ring2() {
+//x,y - keskpunkt , R- raadius
+const tahvel=document.getElementById("tahvel");
+if(tahvel.getContext){
+    let t=tahvel.getContext("2d");  //tahveli nimi määramine
+t.beginPath();
+t.arc(150,50,20,0,2 *Math.PI, true);
+t.strokeStyle= "orange";
+t.stroke();//Ümberjoon
+t.fillStyle = "blue";
+t.fill(); // tausust
+
+}
+}
+
+function kustuta() {
+//x,y - keskpunkt , R- raadius
+const tahvel=document.getElementById("tahvel");
+if(tahvel.getContext) {
+    let t = tahvel.getContext("2d");  //tahveli nimi määramine
+t.clearRect(0,0,500,500);
+}
+}
+function ristkylik() {
+//x,y - keskpunkt , R- raadius
+const tahvel=document.getElementById("tahvel");
+if(tahvel.getContext) {
+    let t = tahvel.getContext("2d");  //tahveli nimi määramine
+t.fillStyle= "orange";
+t.fillRect(50,100,100,120);
+}
+}
+function joon() {
+//x,y - keskpunkt , R- raadius
+const tahvel=document.getElementById("tahvel");
+if(tahvel.getContext){
+    let t=tahvel.getContext("2d");  //tahveli nimi määramine
+t.beginPath();
+t.lineWidth="5";
+t.moveTo(50,60) //alguspunkt
+
+t.lineTo(200,100) // lõppunkt
+t.lineTo(160,10)
+t.moveTo(160,10)
+t.lineTo(200,100)
+t.strokeStyle= "orange";
+t.stroke();//Ümberjoon
+
+
+
+}
+}
+function eesti() {
+//x,y - keskpunkt , R- raadius
+const Lipp = document.getElementById("Lipp");
+    if (Lipp.getContext) {
+    let l = Lipp.getContext("2d");  //tahveli nimi määramine
+l.fillStyle = "blue";
+l.fillRect(0, 0, 330, 70);
+l.fillStyle = "black";
+l.fillRect(0, 70, 330, 140);
+l.fillStyle = "white";
+l.fillRect(0, 140, 330, 210);
+}
+}
+function germani() {
+//x,y - keskpunkt , R- raadius
+const Lipp = document.getElementById("Lipp");
+    if (Lipp.getContext) {
+    let l = Lipp.getContext("2d");  //tahveli nimi määramine
+l.fillStyle = "black";
+l.fillRect(0, 0, 330, 70);
+l.fillStyle = "red";
+l.fillRect(0, 70, 330, 140);
+l.fillStyle = "yellow";
+l.fillRect(0, 140, 330, 210);
+}
+}
+
+function ukraine() {
+//x,y - keskpunt , R- raadius
+const Lipp = document.getElementById("Lipp");
+    if (Lipp.getContext) {
+    let l = Lipp.getContext("2d");  //tahveli nimi määramine
+l.fillStyle = "blue";
+l.fillRect(0, 0, 330, 105);
+l.fillStyle = "yellow";
+l.fillRect(0, 105, 330, 210);
+}
+}
+function japan() {
+//x,y - keskpunkt , R- raadius
+const Lipp = document.getElementById("Lipp");
+    if (Lipp.getContext) {
+    let l = Lipp.getContext("2d");  //tahveli nimi määramine
+l.fillStyle = "white";
+l.fillRect(0, 0, 330, 210);
+l.beginPath();
+l.arc(165,105,50,0,2 *Math.PI, true);
+l.strokeStyle= "red";
+l.stroke();//Ümberjoon
+l.fillStyle = "red";
+l.fill(); // tausust
+
+}
+}
+function guatemala() {
+//x,y - keskpunt , R- raadius
+const Lipp = document.getElementById("Lipp");
+    if (Lipp.getContext) {
+    let l = Lipp.getContext("2d");  //tahveli nimi määramine
+l.fillStyle = "blue";
+l.fillRect(0, 0, 110, 210);
+l.fillStyle = "white";
+l.fillRect(110, 0, 220, 210);
+l.fillStyle = "blue";
+l.fillRect(220, 0, 330, 210);
+    const image = new Image();
+image.src = "im.png";
+l.drawImage(image, 118, 45);
+    width
+}
+}
+
